@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         int phraseSelected = Integer.parseInt(btn.getTag().toString());
         int resourceId = 0;
-        switch(phraseSelected){
+       /* switch(phraseSelected){
             case 1 :
                 resourceId = R.raw.doyouspeakenglish;
 
@@ -84,10 +84,17 @@ public class MainActivity extends AppCompatActivity {
             case 8 :
                 resourceId = R.raw.welcome;
                 break;
-        }
+        }*/
+
+        String idStr = getResources().getResourceEntryName(view.getId());
+
+
+        resourceId = getResources().getIdentifier(idStr, "raw", "com.tushar.gridlayout_demo");
+
+        Log.i("Info - ",idStr);
+
         MediaPlayer mplayer = MediaPlayer.create(this, resourceId);
         mplayer.start();
 
-        Log.i("Info : ", "playing : " + btn.getText());
     }
 }

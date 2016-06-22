@@ -27,7 +27,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Do you speak english"
-            android:id="@+id/phrase1"
+            android:id="@+id/doyouspeakenglish"
             android:onClick="listenPhrase"
             android:tag="1" />
 
@@ -40,7 +40,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Good Evening"
-            android:id="@+id/phrase2"
+            android:id="@+id/goodevening"
             android:onClick="listenPhrase"
             android:tag="2" />
 
@@ -52,8 +52,8 @@
             android:layout_gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="Good Evening"
-            android:id="@+id/phrase3"
+            android:text="My Name Is"
+            android:id="@+id/mynameis"
             android:onClick="listenPhrase"
             android:tag="3" />
 
@@ -66,7 +66,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Hello"
-            android:id="@+id/phrase4"
+            android:id="@+id/hello"
             android:onClick="listenPhrase"
             android:tag="4" />
 
@@ -79,7 +79,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="How are you"
-            android:id="@+id/phrase5"
+            android:id="@+id/howareyou"
             android:onClick="listenPhrase"
             android:tag="5" />
 
@@ -92,7 +92,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="I live in"
-            android:id="@+id/phrase6"
+            android:id="@+id/ilivein"
             android:onClick="listenPhrase"
             android:tag="6" />
 
@@ -105,7 +105,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Please"
-            android:id="@+id/phrase7"
+            android:id="@+id/please"
             android:onClick="listenPhrase"
             android:tag="7" />
 
@@ -118,7 +118,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Welcome"
-            android:id="@+id/phrase8"
+            android:id="@+id/welcome"
             android:onClick="listenPhrase"
             android:tag="8" />
 
